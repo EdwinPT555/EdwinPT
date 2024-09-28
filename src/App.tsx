@@ -13,7 +13,7 @@ const App: React.FC = () => {
       <nav className="bg-black text-yellow-500 w-full md:w-1/3 md:h-screen flex flex-col p-6">
         <div>
           <h1 className="text-5xl md:text-7xl font-bold">EDWIN PT</h1>
-          <p className="text-2xl md:text-3xl mt-2">Senior Software Engineer</p>
+          <p className="text-xl md:text-3xl mt-2">Senior Software Engineer</p>
         </div>
         <Navigation
           activeSection={activeSection}
