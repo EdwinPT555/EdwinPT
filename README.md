@@ -47,4 +47,6 @@ export default tseslint.config({
     ...react.configs['jsx-runtime'].rules,
   },
 })
+
 ```
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b540850e-cb7f-431c-bc65-ae0baad0a975/deploy-status)](https://app.netlify.com/sites/edwin-pt/deploys)
