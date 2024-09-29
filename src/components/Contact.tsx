@@ -56,16 +56,16 @@ const Contact = () => {
         <div className="flex items-center justify-center mt-4 sm:mt-6">
           <div className="flex space-x-3 sm:space-x-4">
             <button onClick={() => handleContactMethod('email')} aria-label="Email">
-              <i className="fas fa-envelope text-yellow-500 text-xl sm:text-2xl"></i>
+              <i className="fas fa-envelope text-yellow-500 text-xl sm:text-2xl mx-2"></i>
             </button>
             <button onClick={() => handleContactMethod('whatsapp')} aria-label="WhatsApp">
-              <i className="fab fa-whatsapp text-yellow-500 text-xl sm:text-2xl"></i>
+              <i className="fab fa-whatsapp text-yellow-500 text-xl sm:text-2xl mx-2"></i>
             </button>
             <button onClick={() => handleContactMethod('linkedin')} aria-label="LinkedIn">
-              <i className="fab fa-linkedin-in text-yellow-500 text-xl sm:text-2xl"></i>
+              <i className="fab fa-linkedin-in text-yellow-500 text-xl sm:text-2xl mx-2"></i>
             </button>
             <button onClick={() => handleContactMethod('call')} aria-label="Call">
-              <i className="fas fa-phone text-yellow-500 text-xl sm:text-2xl"></i>
+              <i className="fas fa-phone text-yellow-500 text-xl sm:text-2xl mx-2"></i>
             </button>
           </div>
         </div>
