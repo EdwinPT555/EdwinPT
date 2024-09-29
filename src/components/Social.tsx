@@ -1,7 +1,7 @@
 
 const Social = () => {
   return (
-    <div className="fixed bottom-0 right-0 flex  items-end">
+    <div className="fixed bottom-0 right-0 w-full bg-black flex justify-center md:justify-end items-end">
       <a className="bg-black text-yellow-500 h-12 w-12 flex justify-center items-center" href="https://github.com/edwinpt" target="_blank" rel="noopener noreferrer">
         <i className="fab fa-github mx-auto text-2xl"></i>
       </a>
