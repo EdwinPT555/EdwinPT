@@ -23,11 +23,11 @@ const Skills = () => {
   ];
 
   return (
-    <div className="grid grid-cols-4 sm:grid-cols-[repeat(auto-fit,minmax(80px,1fr))] gap-4 md:gap-6">
+    <div className="grid grid-cols-4 sm:grid-cols-[repeat(auto-fit,minmax(80px,1fr))] gap-6 md:gap-6">
       {skills.map((skill) => (
         <div
           key={skill.name}
-          className="bg-black text-white rounded-lg shadow-md p-3 flex flex-col items-center justify-center h-24 w-24 transform transition duration-300 hover:scale-105 hover:bg-gray-800"
+          className="bg-black text-white rounded-lg shadow-md p-3 flex flex-col items-center justify-center h-20 w-20 md:h-24 md:w-24 transform transition duration-300 hover:scale-105 hover:bg-gray-800"
         >
           {skill.icon}
           <p className="mt-2 text-xs md:text-sm font-semibold text-center">{skill.name}</p>
