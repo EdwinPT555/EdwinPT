@@ -21,7 +21,7 @@ const Navigation: React.FC<IProps> = ({ activeSection, setActiveSection }) => {
       {/* Toggle button visible on small screens */}
       <div className="sm:hidden fixed bottom-1 left-1 z-50">
         <button
-          className="bg-yellow-500 text-black h-10 w-10 flex items-center justify-center border border-black"
+          className="bg-yellow-500 text-black h-10 w-10 ml-1 flex items-center justify-center border border-black"
           onClick={toggleDropdown}
         >
           <i className="fas fa-bars text-lg" /> 
