@@ -12,7 +12,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="h-full bg-black text-yellow-500 flex justify-center items-center p-4">
+    <div className="h-full bg-black text-yellow-500 flex justify-center items-center p-4 -mt-4">
       <div className="w-full max-w-sm sm:max-w-md p-6 sm:p-8 border border-yellow-500 rounded-lg">
         <h1 className="text-2xl sm:text-3xl font-bold mb-4 text-center">Contact Me</h1>
         <form className="space-y-4 sm:space-y-6">
