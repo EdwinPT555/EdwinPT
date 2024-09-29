@@ -1,4 +1,4 @@
-import React, {  useState } from "react";
+import React, { useState } from "react";
 import Navigation from "./components/Navigation";
 import Section from "./components/Section";
 import { NAVITEMS } from "./type";
@@ -26,7 +26,7 @@ const App: React.FC = () => {
         <Section page={activeSection} />
       </main>
 
-      <Social />
+      <Social/>
     </div>
   );
 };

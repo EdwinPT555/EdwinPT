@@ -19,9 +19,9 @@ const Navigation: React.FC<IProps> = ({ activeSection, setActiveSection }) => {
   return (
     <>
       {/* Toggle button visible on small screens */}
-      <div className="sm:hidden fixed top-4 right-4 z-50">
+      <div className="sm:hidden fixed bottom-1 left-1 z-50">
         <button
-          className="bg-yellow-500 text-black px-4 py-2 rounded-lg flex items-center"
+          className="bg-yellow-500 text-black h-10 w-10 flex items-center justify-center border border-black"
           onClick={toggleDropdown}
         >
           <i className="fas fa-bars text-lg" /> 
@@ -30,7 +30,7 @@ const Navigation: React.FC<IProps> = ({ activeSection, setActiveSection }) => {
 
       {/* Dropdown Menu for small screens */}
       {isOpen && (
-        <ul className="space-y-4 my-4 sm:hidden bg-white p-4 rounded-lg shadow-lg fixed top-16 right-4 z-40">
+        <ul className="space-y-4 my-4 sm:hidden bg-white p-4 rounded-lg shadow-lg fixed bottom-10 left-8 z-40">
           {NavItemsData.map((item) => (
             <li
               key={item.name}
