@@ -8,7 +8,7 @@ const App: React.FC = () => {
   const [activeSection, setActiveSection] = useState<NAVITEMS>(NAVITEMS.home);
 
   return (
-    <div className="min-h-screen flex flex-col md:flex-row">
+    <div className="h-screen flex flex-col md:flex-row">
       {/* Left Side - Navigation */}
       <nav className="bg-black text-yellow-500 w-full md:w-1/3 md:h-screen flex flex-col p-6">
         <div>
