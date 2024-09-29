@@ -12,13 +12,15 @@ const Skills = () => {
     { name: 'Git', icon: <i style={{ color: '#F05032' }} className="fab fa-git fa-2x" /> },
     { name: 'GitHub', icon: <i style={{ color: '#FFF' }} className="fab fa-github fa-2x" /> },
     { name: 'Figma', icon: <i style={{ color: '#A259FF' }} className="fab fa-figma fa-2x" /> },
-    { name: "Fluent UI", icon: <img className="text-white" width={40} src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Fluent_UI.svg" alt="" /> },
+    { name: "FluentUI", icon: <img className="text-white" width={40} src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Fluent_UI.svg" alt="" /> },
     { name: 'SASS', icon: <i style={{ color: '#CC6699' }} className="fab fa-sass fa-2x" /> },
     { name: 'Tailwind', icon: <i style={{ color: '#38B2AC' }} className="fab fa-css3-alt fa-2x" /> },
     { name: 'Bootstrap', icon: <i style={{ color: '#563D7C' }} className="fab fa-bootstrap fa-2x" /> },
     { name: 'Docker', icon: <i style={{ color: '#2496ED' }} className="fab fa-docker fa-2x" /> },
+    { name: 'Postman', icon: <img width={40} src="https://www.svgrepo.com/show/354202/postman-icon.svg" alt="" /> },
+    { name: "Devops", icon: <img width={40} src="https://www.svgrepo.com/show/448271/azure-devops.svg" alt="" /> },
     { name: 'Azure', icon: <img width={40} src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Microsoft_Azure.svg/2048px-Microsoft_Azure.svg.png" alt="" /> },
-    { name: "Redux toolkit", icon: <i style={{ color: '#61DAFB' }} className="fab fa-react fa-2x" /> },
+    { name: "Redux", icon: <i style={{ color: '#61DAFB' }} className="fab fa-react fa-2x" /> },
     { name: "Playwright", icon: <img width={40} src="https://seeklogo.com/images/P/playwright-logo-22FA8B9E63-seeklogo.com.png" alt="" /> },
   ];
 
@@ -27,7 +29,7 @@ const Skills = () => {
       {skills.map((skill) => (
         <div
           key={skill.name}
-          className="bg-black text-white rounded-lg shadow-md p-3 flex flex-col items-center justify-center h-20 w-20 md:h-24 md:w-24 transform transition duration-300 hover:scale-105 hover:bg-gray-800"
+          className="bg-black text-white rounded-lg shadow-md p-6 md:p-3 flex flex-col items-center justify-center h-20 w-20 md:h-24 md:w-24 transform transition duration-300 hover:scale-105 hover:bg-gray-800"
         >
           {skill.icon}
           <p className="mt-2 text-xs md:text-sm font-semibold text-center">{skill.name}</p>
