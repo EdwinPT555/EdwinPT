@@ -13,6 +13,7 @@ const Navigation: React.FC<IProps> = ({ activeSection, setActiveSection }) => {
   };
 
   const toggleDropdown = () => {
+    audio.play();
     setIsOpen((prev) => !prev);
   };
 

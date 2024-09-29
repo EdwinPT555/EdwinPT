@@ -25,7 +25,7 @@ const Skills = () => {
   ];
 
   return (
-    <div className="grid grid-cols-4 sm:grid-cols-[repeat(auto-fit,minmax(80px,1fr))] gap-6 md:gap-6">
+    <div className="p-6 grid grid-cols-4 sm:grid-cols-[repeat(auto-fit,minmax(80px,1fr))] gap-6 md:gap-6">
       {skills.map((skill) => (
         <div
           key={skill.name}

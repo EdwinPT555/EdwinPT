@@ -22,7 +22,7 @@ const App: React.FC = () => {
       </nav>
 
       {/* Right Side - Details */}
-      <main className="flex-1 bg-yellow-500 p-6">
+      <main className="flex-1 bg-yellow-500">
         <Section page={activeSection} />
       </main>
 
